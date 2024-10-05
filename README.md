@@ -66,6 +66,10 @@ These relationships make sure that the system maintains accurate records and can
 The Entity-Relationship (ER) diagram provides a clear, visual representation of how all the tables in the database are related. It shows which tables are connected and the type of relationship (one-to-one, one-to-many, etc.) they share. This is an important tool for understanding how the database works and for ensuring the integrity of the data.
 
 
+The following diagram represents the relationships between entities in the library system:
+![ER Diagram](./er-diagram.png "ER Diagram")
+
+
 ---
 
 ## **📋 Table Breakdown**
