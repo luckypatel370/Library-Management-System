@@ -146,6 +146,8 @@ Holds information about book suppliers.
 Here are a few example queries that could be used to test the system’s functionality:
 
 1. **Find books borrowed by a specific customer**:
+  
+
    ```sql
    SELECT C.Name, B.Title, I.IssueDate 
    FROM Customer C 
@@ -153,6 +155,10 @@ Here are a few example queries that could be used to test the system’s functio
    JOIN Books B ON I.BookID = B.BookID 
    WHERE C.CustomerID = 1;
    ```
+<div align="left">
+  <img src="./q1.png" alt="SQL" width="300"/>
+</div>
+
 
 2. **List employees working in a specific branch**:
    ```sql
@@ -161,6 +167,10 @@ Here are a few example queries that could be used to test the system’s functio
    JOIN Branch B ON E.BranchID = B.BranchID 
    WHERE B.BranchName = 'Downtown Branch';
    ```
+   <div align="left">
+  <img src="./q2.png" alt="SQL" width="300"/>
+</div>
+
 
 3. **Count the total number of books available in each branch**:
    ```sql
@@ -169,6 +179,10 @@ Here are a few example queries that could be used to test the system’s functio
    JOIN Books Bo ON B.BranchID = Bo.BranchID 
    GROUP BY B.BranchName;
    ```
+   <div align="left">
+  <img src="./q3.png" alt="SQL" width="300"/>
+</div>
+
 
 4. **Calculate the total fines collected from overdue books**:
    ```sql
@@ -176,6 +190,10 @@ Here are a few example queries that could be used to test the system’s functio
    FROM ReturnStatus 
    WHERE Fine > 0;
    ```
+   <div align="left">
+  <img src="./q4.png" alt="SQL" width="300"/>
+</div>
+
 
 ---
 
