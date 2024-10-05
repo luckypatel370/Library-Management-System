@@ -201,3 +201,5 @@ Here are a few example queries that could be used to test the system’s functio
 This library management system database design is built to handle key functions like book inventory, event scheduling, and customer management. The ER diagram provides a strong foundation for understanding how each table interacts, and the relationships ensure the data is organized and easily accessible. The design ensures the library is ready to meet current demands and scale for future growth.
 
 ---
+
+## ** To see our Presentation [Click here](https://github.com/luckypatel370/Library-Management-System/blob/main/central_library.pdf)
