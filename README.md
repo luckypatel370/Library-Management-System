@@ -18,6 +18,7 @@
   - [🚚 Supplier Table](#-supplier)
 - [🔍 Example Database Queries](#-example-database-queries)
 - [✅ Conclusion](#-conclusion)
+- [📦 Presentation](#To-see-our-Presentation)
 
 ---
 
@@ -202,4 +203,5 @@ This library management system database design is built to handle key functions 
 
 ---
 
-## ** To see our Presentation [Click here](https://github.com/luckypatel370/Library-Management-System/blob/main/central_library.pdf)
+## **To see our Presentation**
+[Click here](https://github.com/luckypatel370/Library-Management-System/blob/main/central_library.pdf)
