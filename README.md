@@ -165,7 +165,7 @@ Here are a few example queries that could be used to test the system’s functio
    SELECT E.Name, B.BranchName 
    FROM Employee E 
    JOIN Branch B ON E.BranchID = B.BranchID 
-   WHERE B.BranchName = 'Downtown Branch';
+   WHERE B.BranchName = 'North Branch';
    ```
    <div align="left">
   <img src="./q2.png" alt="SQL" width="300"/>
